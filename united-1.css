@@ -1,0 +1,28 @@
+body {
+    background-color: #1a1a1a;
+    color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+th, td {
+    border: 1px solid #444;
+    padding: 10px;
+    text-align: center;
+}
+th {
+    background-color: #333;
+    color: #fff;
+    font-size: 24px;
+}
+td img {
+    width: 100%;
+    max-width: 500px;
+    transition: transform 0.3s ease;
+}
+td img:hover {
+    transform: scale(1.05);
+}
